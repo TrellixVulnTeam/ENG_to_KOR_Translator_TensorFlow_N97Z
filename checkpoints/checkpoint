@@ -1,0 +1,6 @@
+model_checkpoint_path: "/Users/KimWiback/Google_Drive/Git/ENG_to_KOR_Translator_TensorFlow/checkpoints/translate.ckpt-27200"
+all_model_checkpoint_paths: "/Users/KimWiback/Google_Drive/Git/ENG_to_KOR_Translator_TensorFlow/checkpoints/translate.ckpt-26400"
+all_model_checkpoint_paths: "/Users/KimWiback/Google_Drive/Git/ENG_to_KOR_Translator_TensorFlow/checkpoints/translate.ckpt-26600"
+all_model_checkpoint_paths: "/Users/KimWiback/Google_Drive/Git/ENG_to_KOR_Translator_TensorFlow/checkpoints/translate.ckpt-26800"
+all_model_checkpoint_paths: "/Users/KimWiback/Google_Drive/Git/ENG_to_KOR_Translator_TensorFlow/checkpoints/translate.ckpt-27000"
+all_model_checkpoint_paths: "/Users/KimWiback/Google_Drive/Git/ENG_to_KOR_Translator_TensorFlow/checkpoints/translate.ckpt-27200"
