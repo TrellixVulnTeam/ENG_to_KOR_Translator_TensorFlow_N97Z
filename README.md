@@ -46,6 +46,7 @@ Virtualenv Python 2.7 with TensorFlow on it with following packages:
 ## scripts <a name="anchor_4"></a> [up](#anchor_main)
 1. See upper part of translate.py, since everything can be controled from there.
 2. data\_utils.py & seq2seq\_model.py are helper class & model creation class respectively.
+3. To run, type "python translate.py" on TensorFlow activated terminal, or run on IDLE like Pycharm (interpreter as TensorFlow in this case).
 
 ## References <a name="anchor_ref"></a> [top](#anchor_main)
 My [blog][4] <br></br>
@@ -57,6 +58,6 @@ Email: <kwb425@icloud.com>
 [3]: https://github.com/kwb425/ENG_to_KOR_Translator_TensorFlow/releases
 [4]: http://kwb425.github.io/
 <!--Links to images, reference Markdowns-->
-[a]: https://img.shields.io/badge/Tag-v1.1-red.svg?style=plastic
-[b]: https://img.shields.io/badge/Release-v1.1-green.svg?style=plastic
+[a]: https://img.shields.io/badge/Tag-v1.2-red.svg?style=plastic
+[b]: https://img.shields.io/badge/Release-v1.2-green.svg?style=plastic
 [c]: https://img.shields.io/badge/Download-Click-blue.svg?style=plastic

@@ -63,27 +63,28 @@ Model layouts:
                4. nltk_tokenizer
                5. sample softmax
 """
-lr = 0.5                                                                          # You can change at your taste.
-lr_decay = 0.99                                                                   # You can change at your taste.
-gradient_clip_norm = 5.0                                                          # You can change at your taste.
-batch_size = 64                                                                   # You can change at your taste.
-num_of_nodes = 64                                                                 # You can change at your taste.
-num_of_layers = 2                                                                 # You can change at your taste.
-from_vocab_size = 20000  # Total 103556 From NLTK                                 # You can change at your taste.
-to_vocab_size = 40000    # Total 206663 From NLTK                                 # You can change at your taste.
-data_dir = os.path.dirname(__file__) + "../data/"                                 # You can change at your taste.
-trained_dir = os.path.dirname(__file__) + "../checkpoints/"                       # You can change at your taste.
-how_many_steps_per_save = 200                                                     # You can change at your taste.
-decoding_mode_tf = False                                                          # You can change at your taste.
-use_lstm_tf = True                                                                # You can change at your taste.
-sample_softmax_size = 512                                                         # You can change at your taste.
-"""                                                                               # Built-in-ed, do not mess with it.
-nltk_tokenizer added in data_utils.py                                             # Built-in-ed, do not mess with it.
-GradientDescentOptimizer -> AdamOptimizer in seq2seq_model.py                     # Built-in-ed, do not mess with it.
-"""                                                                               # Built-in-ed, do not mess with it.
+lr = 0.5                                                                              # You can change at your taste.
+lr_decay = 0.99                                                                       # You can change at your taste.
+gradient_clip_norm = 5.0                                                              # You can change at your taste.
+batch_size = 64                                                                       # You can change at your taste.
+num_of_nodes = 64                                                                     # You can change at your taste.
+num_of_layers = 2                                                                     # You can change at your taste.
+from_vocab_size = 20000  # Total 103556 From NLTK                                     # You can change at your taste.
+to_vocab_size = 40000    # Total 206663 From NLTK                                     # You can change at your taste.
+data_dir = os.path.join(os.path.dirname(__file__), os.path.pardir, "data")            # You can change at your taste.
+trained_dir = os.path.join(os.path.dirname(__file__), os.path.pardir, "checkpoints")  # You can change at your taste.
+how_many_steps_per_save = 200                                                         # You can change at your taste.
+decoding_mode_tf = False                                                              # You can change at your taste.
+use_lstm_tf = True                                                                    # You can change at your taste.
+sample_softmax_size = 512                                                             # You can change at your taste.
+"""                                                            # Built-in-ed, do not mess with it.
+nltk_tokenizer added in data_utils.py                          # Built-in-ed, do not mess with it.
+GradientDescentOptimizer -> AdamOptimizer in seq2seq_model.py  # Built-in-ed, do not mess with it.
+"""                                                            # Built-in-ed, do not mess with it.
 #
 #                                                                                               Altered by Kim, Wiback,
 #                                                                                                     2017.05.08. v1.1.
+#                                                                                                     2017.05.11. v1.2.
 #######################################################################################################################
 tf.app.flags.DEFINE_float("learning_rate", lr, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", lr_decay,
