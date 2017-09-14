@@ -10,19 +10,8 @@
 5. [References](#anchor_ref) <br></br>
 
 ## Running Environment <a name="anchor_1"></a> [up](#anchor_main)
-Virtualenv Python 2.7 with TensorFlow on it with following packages:
-
-* pip install --upgrade jupyter
-* pip install --upgrade pillow
-* pip install --upgrade scikit-learn
-* pip install --upgrade matplotlib
-* pip install --upgrade scipy
-* pip install --upgrade xlrd
-* pip install --upgrade python\_speech\_features
-* pip install --upgrade nltk
-* pip install git+http://github.com/kylebgorman/textgrid.git
-* pip install --upgrade JPype1
-* pip install --upgrade konlpy
+* Anaconda Python 2.7
+* pip --ignore-installed tensorflow-gpu==1.0.0
 
 ## data <a name="anchor_2"></a> [up](#anchor_main)
 | Data               | Token id                    | Word list       |
